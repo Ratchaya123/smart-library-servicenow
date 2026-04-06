@@ -49,8 +49,8 @@ To enforce the **Priority** field as mandatory when the **State** of an Incident
 
 ## 🙌 Conclusion
 This project helps in improving data accuracy and demonstrates effective configuration migration in ServiceNow.
+## 📸 Screenshot
 
-
----
+![Project Screenshot](screenshot.png)
 
 ## 📊 Workflow
