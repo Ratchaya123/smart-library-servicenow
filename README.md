@@ -1,56 +1,55 @@
 # smart-library-servicenow
 Smart Library Request Workflow in ServiceNow
-# 🚀 Enforcing Mandatory Fields Using UI Policies & Update Sets
+# 📚 Smart Library Request Workflow in ServiceNow
 
 ## 📌 Project Overview
-This project demonstrates how to enforce mandatory fields using UI Policies and migrate changes using Update Sets in ServiceNow.
+This project demonstrates a Smart Library Request Workflow built using ServiceNow. It automates the process of requesting, approving, and issuing books efficiently.
 
-👉 The goal is to:
-- Make fields mandatory based on conditions  
-- Safely move configurations between ServiceNow instances  
+The system helps students/users request books digitally and allows admins/librarians to manage approvals and track requests.
 
 ---
 
 ## 🛠️ Platform Used
-- 🔹 ServiceNow  
+- 🔹 ServiceNow
 
 ---
 
 ## 🎯 Objective
-To enforce the **Priority** field as mandatory when the **State** of an Incident is changed to **"In Progress"** using UI Policies.
+To design and implement an automated workflow for library book requests, reducing manual work and improving efficiency.
 
 ---
 
 ## ⚙️ Features
-✔️ Dynamic field validation  
-✔️ Conditional mandatory fields  
-✔️ Easy configuration using UI Policies  
-✔️ Migration using Update Sets  
+✔️ Book request submission  
+✔️ Automated approval workflow  
+✔️ Admin/Librarian control  
+✔️ Request status tracking  
+✔️ Notifications for users  
 
 ---
 
-## 🧩 Steps Involved
+## 🔄 Workflow Process
 
-1️⃣ Create a UI Policy  
-2️⃣ Set Conditions (State = In Progress)  
-3️⃣ Make Priority field Mandatory  
-4️⃣ Create Update Set  
-5️⃣ Capture all changes  
-6️⃣ Export Update Set  
-7️⃣ Import into another instance  
+1️⃣ User submits book request  
+2️⃣ Request sent for approval  
+3️⃣ Librarian/Admin reviews request  
+4️⃣ Approval / Rejection  
+5️⃣ Book issued to user  
+6️⃣ Status updated in system  
 ---
 
 ## ✅ Result
-🎉 The **Priority field becomes mandatory** when the Incident state is set to **"In Progress"**.
+🎉 The system successfully automates the library request process.
 
-📦 All configurations are successfully migrated using Update Sets.
+📌 Users can easily request books and track status.  
+📌 Admin can efficiently manage and approve requests.  
 
 ---
 
 ## 🙌 Conclusion
-This project helps in improving data accuracy and demonstrates effective configuration migration in ServiceNow.
-## 📸 Screenshot
+This project improves efficiency, reduces manual effort, and ensures a smooth library management system using ServiceNow workflows.
 
-![Project Screenshot](screenshot.png)
+---
 
-## 📊 Workflow
+
+## 📊 Workflow Diagram
